@@ -21,7 +21,7 @@ jobs:
         echo '        <loc>https://sannidhya.me</loc>' >> sitemap.xml
         echo '        <lastmod>'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'</lastmod>' >> sitemap.xml
         echo '        <changefreq>monthly</changefreq>' >> sitemap.xml
-        echo '        <priority>0.8</priority>' >> sitemap.xml
+        echo '        <priority>0.5</priority>' >> sitemap.xml
         echo '    </url>' >> sitemap.xml
         echo '</urlset>' >> sitemap.xml
 
